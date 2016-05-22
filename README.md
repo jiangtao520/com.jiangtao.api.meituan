@@ -2,7 +2,7 @@
 美团券核销接口
 
 ＃Example
-｀｀｀java
+```java
 MeituanVerifyCodeAPI api = new MeituanVerifyCodeAPI("ca2bf41f1910a9c359370ebf87caeafd", "21be83530509abc81aa945a02bec37601cf3cc21", "12345");
 System.out.println(api.m1EcouponInfo("123412341234"));
 System.out.println(api.m1EcouponInfo("112233441122"));
@@ -26,4 +26,4 @@ System.out.println(api.m3EcouponCancel("121234341212", "3"));
 System.out.println(api.m3EcouponCancel("111133332222", "4"));
 System.out.println(api.m3EcouponCancel("222244441111", "5"));
 System.out.println(api.m3EcouponCancel("111111111111", "6"));
-｀｀｀
+```
